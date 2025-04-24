@@ -1,0 +1,15 @@
+id,created_at,text,source,category
+1,2025-03-11 11:54:24.649885+00,What is the primary purpose of the HTML language?,Alex,html
+2,2025-03-11 11:54:24.649885+00,How does CSS help in web development?,Martin,css
+3,2025-03-11 11:54:24.649885+00,Why is JavaScript considered the backbone of modern web development?,Mihail,javascript
+4,2025-03-11 11:54:24.649885+00,What are the main advantages of using React for frontend development?,Georgi,react
+5,2025-03-11 11:54:24.649885+00,Why is Next.js a popular choice for server-side rendering?,Ivan,nextjs
+6,2025-03-11 11:54:24.649885+00,What are semantic elements in HTML and why are they important?,Petar,html
+7,2025-03-11 11:54:24.649885+00,How does Flexbox improve CSS layout design?,Stefan,css
+9,2025-03-11 11:54:24.649885+00,How do React hooks simplify state management?,Dimitar,react
+10,2025-03-11 11:54:24.649885+00,What is the benefit of using Next.js Image Optimization?,Viktor,nextjs
+11,2025-03-11 11:54:24.649885+00,What role does accessibility (ARIA) play in HTML?,Stoyan,html
+12,2025-03-11 11:54:24.649885+00,How does CSS Grid differ from Flexbox?,Todor,css
+13,2025-03-11 11:54:24.649885+00,What are the benefits of using async/await in JavaScript?,Kristian,javascript
+14,2025-03-11 11:54:24.649885+00,How does the virtual DOM in React improve performance?,Emil,react
+15,2025-03-11 11:54:24.649885+00,What are Next.js API routes used for?,Hristo,nextjs

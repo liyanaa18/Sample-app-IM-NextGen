@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="logo.png" alt="I&M NextGen Logo" class="header-img" />
+          <h1>I&M NextGen Academy</h1>
+        </div>
+        <button class="btn btn-large btn-open">Ask a question</button>
+      </header>
+
+      <form class="form hidden">
+        <input
+          class="question-text"
+          type="text"
+          placeholder="Ask question about our academy"
+        />
+        <input class="question-source" type="text" placeholder="Source" />
+        <select class="question-category">
+          <option value="">Choose category:</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+          <option value="react">React</option>
+          <option value="nextjs">Next.js</option>
+        </select>
+        <button class="btn btn-large btn-post">POST</button>
+      </form>
+
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="category">
+              <button class="btn btn-all-categories">ALL</button>
+            </li>
+
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #ff5722"
+              >
+                HTML
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #2196f3"
+              >
+                CSS
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #ffeb3b"
+              >
+                JavaScript
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #61dafb"
+              >
+                React
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #1a1a1a; color: #ffffff"
+              >
+                Next.js
+              </button>
+            </li>
+          </ul>
+        </aside>
+
+        <section>
+          <ul class="questions">
+            <li class="question">
+              <p>
+                What is the primary purpose of the HTML language?
+                <a class="source" target="_blank">Alex</a>
+              </p>
+              <span class="tag" style="background-color: #ff5722">html</span>
+            </li>
+
+            <li class="question">
+              <p>
+                How does CSS help in web development?
+                <a class="source" target="_blank">Martin</a>
+              </p>
+              <span class="tag" style="background-color: #2196f3">css</span>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
